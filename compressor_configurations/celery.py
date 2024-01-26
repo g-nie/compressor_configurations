@@ -6,7 +6,7 @@ import configurations
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'compressor_configurations.settings')
 os.environ['DJANGO_CONFIGURATION'] = 'BaseConf'
 
-# configurations.setup()
+configurations.setup()
 
 app = Celery('compressor_configurations')
 
