@@ -1,0 +1,10 @@
+{% load static %}
+{% load compress %}
+
+<html>
+    <head>
+        {% compress js %}
+            <script type="text/javascript" src="{% static 'core/dummy.js' %}"></script>
+        {% endcompress %}
+    </head>
+</html>

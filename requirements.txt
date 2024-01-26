@@ -1,0 +1,4 @@
+Django==5.0.1
+django-compressor==4.4
+django-configurations==2.5
+celery==5.3.6
